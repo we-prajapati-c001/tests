@@ -1,0 +1,31 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Debug",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "debug"
+        },
+        {
+            "name": "integration (debug mode)",
+            "request": "launch",
+            "type": "dart",
+            "program": "integration_test/app_test.dart"
+        },
+        {
+            "name": "integration (profile mode)",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile",
+            "program": "integration_test/app_test.dart"
+        },
+        {
+            "name": "integration (release mode)",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release",
+            "program": "integration_test/app_test.dart"
+        }
+    ]
+}
